@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Складской комплекс</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media/media.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__logo">
+                <img src="img/logo.png">
+                <p>складской комплекс<br> на нижегородской</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">объекты</a></li>
+                    <li><a href="">наши арендаторы</a></li>
+                    <li><a href="">вывоз снега</a></li>
+                    <li><a href="">фотогалерея</a></li>
+                    <li><a href="">контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__mobile-menu">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="8" viewBox="0 0 18 8" fill="none">
+                        <path d="M18 8H0V6H18V8ZM18 2H0V0H18V2Z" fill="#F0B791" />
+                    </svg>
+                </button>
+            </div>
+            <button id="open-modal-join" class="header__btn-authorization">кабинет арендатора</button>
+        </div>
+    </header>
+    <div class="intro">
+        <div class="container">
+            <div class="intro__text">
+                <h1>Складской комплекс<br> на Нижегородской</h1>
+                <h2>Место где удобно работать</h2>
+                <button>свободные объекты</button>
+            </div>
+        </div>
+    </div>
+    <div class="square-bg">
+        <div class="object">
+            <div class="container">
+                <div class="object__head">
+                    <h2>объекты</h2>
+                    <div class="slider__btn">
+                        <div class="swiper-button-prev"><img src="img/slider btn.png"></div>
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-next"><img src="img/slider btn.png"></div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo left object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение свободно</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">100<span class="small-text">м2</span> склад</h2>
+                                        <h2 class="slider__price">400 руб/м2</h2>
+                                    </div>
+                                    <p>Теплый склад, установлены ворота, большие окна. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo center object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение свободно</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">490<span class="small-text">м2</span> офис</h2>
+                                        <h2 class="slider__price">700 руб/м2</h2>
+                                    </div>
+                                    <p>Чистый офис со свежим ремонтом</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo right object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение скоро освобождается<br> и доступно к аренде с 28.02.2022 г.</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">80<span class="small-text">м2</span> офис и склад</h2>
+                                        <h2 class="slider__price">1.500 руб/м2</h2>
+                                    </div>
+                                    <p>Чистый офис со свежим ремонтом</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo left object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение свободно</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">100<span class="small-text">м2</span> склад</h2>
+                                        <h2 class="slider__price">400 руб/м2</h2>
+                                    </div>
+                                    <p>Теплый склад, установлены ворота, большие окна. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo center object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение свободно</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">490<span class="small-text">м2</span> офис</h2>
+                                        <h2 class="slider__price">700 руб/м2</h2>
+                                    </div>
+                                    <p>Чистый офис со свежим ремонтом</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo right object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение скоро освобождается<br> и доступно к аренде с 28.02.2022 г.</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">80<span class="small-text">м2</span> офис и склад</h2>
+                                        <h2 class="slider__price">1.500 руб/м2</h2>
+                                    </div>
+                                    <p>Чистый офис со свежим ремонтом</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo left object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение свободно</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">100<span class="small-text">м2</span> склад</h2>
+                                        <h2 class="slider__price">400 руб/м2</h2>
+                                    </div>
+                                    <p>Теплый склад, установлены ворота, большие окна. </p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo center object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение свободно</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">490<span class="small-text">м2</span> офис</h2>
+                                        <h2 class="slider__price">700 руб/м2</h2>
+                                    </div>
+                                    <p>Чистый офис со свежим ремонтом</p>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="slider__item-top">
+                                    <img src="img/photo right object.png">
+                                    <div class="slider__item-panel">
+                                        <p>Помещение скоро освобождается<br> и доступно к аренде с 28.02.2022 г.</p>
+                                        <img src="img/icon slider.png">
+                                    </div>
+                                </div>
+                                <div class="slider__item-bottom">
+                                    <div class="slider__item-title">
+                                        <h2 class="slider__name">80<span class="small-text">м2</span> офис и склад</h2>
+                                        <h2 class="slider__price">1.500 руб/м2</h2>
+                                    </div>
+                                    <p>Чистый офис со свежим ремонтом</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="object__btn">
+                    <button>Узнать подробнее +7-913-451-77-71</button>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="container">
+                <div class="gallery__head">
+                    <div class="container">
+                        <h2>фотогалерея</h2>
+                        <div class="slider__btn">
+                            <div class="swiper-button-prev-gallery"><img src="img/slider btn.png"></div>
+                            <div class="swiper-pagination-gallery"></div>
+                            <div class="swiper-button-next-gallery"><img src="img/slider btn.png"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider">
+                    <div class="swiper mySwiper2">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <img src="img/photo left gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo center gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo right gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo left gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo center gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo right gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo left gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo center gallery.png">
+                            </div>
+                            <div class="swiper-slide">
+                                <img src="img/photo right gallery.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="partners">
+        <div class="container">
+            <div class="partners__head">
+                <h2>наши арендаторы</h2>
+            </div>
+            <div class="partners__group">
+                <div class="partners__row">
+                    <img src="img/logo 1 partners.png">
+                    <img src="img/logo 2 partners.png">
+                    <img src="img/logo 3 partners.png">
+                </div>
+                <div class="partners__row">
+                    <img src="img/logo 4 partners.png">
+                    <img src="img/logo 5 partners.png">
+                    <img src="img/logo 6 partners.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contacts">
+        <div class="container">
+            <div class="contacts__head">
+                <h2>контакты</h2>
+            </div>
+        </div>
+        <div class="contacts__info">
+            <div class="contacts__contact-info">
+                <div class="contacts__item">
+                    <img src="img/geo icon.png">
+                    <p><b>Адрес:</b> г.Новосибирск, ул.Нижегородская, д.270</p>
+                </div>
+                <div class="contacts__item">
+                    <img src="img/telephone icon.png">
+                    <p><b>Телефон отдела аренды:</b> +7-913-451-77-71</p>
+                </div>
+                <div class="contacts__item">
+                    <img src="img/email icon.png">
+                    <p><b>e-mail:</b> arenda@n270.ru</p>
+                </div>
+                <div class="contacts__item">
+                    <img src="img/file icon.png">
+                    <p><b>Реквизиты</b></p>
+                </div>
+                <div class="contacts__btn">
+                    <button>Заказать звонок менеджера по аренде</button>
+                </div>
+            </div>
+            <div class="contacts__map">
+                <img src="img/map.png">
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__head">
+                <div class="footer__logo">
+                    <img src="img/dark logo.png">
+                    <h3>складской комплекс<br> на нижегородской</h3>
+                </div>
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="">объекты</a></li>
+                        <li><a href="">наши арендаторы</a></li>
+                        <li><a href="">вывоз снега</a></li>
+                        <li><a href="">фотогалерея</a></li>
+                        <li><a href="">контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>© 2022 Складской комплекс на Нижегородской</p>
+                <a href="" class="footer__oferta">Оферта и политика конфиденциальности</a>
+                <a href="" class="footer__agree">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-join">
+        <div class="modal__body">
+            <h3>Вход в личный кабинет<br>Арендатора</h3>
+            <form>
+                <input placeholder="e-mail" type="text">
+                <input placeholder="Пароль" type="password">
+                <button class="join-btn">Войти</button>
+            </form>
+            <a href="">Восстановить пароль</a>
+            <div class="modal__exit">
+                <button onclick="exitModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M1 1L19 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M1 19L19 1" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3,
+            spaceBetween: 80,
+            allowTouchMove: false,
+            pagination: {
+                el: ".swiper-pagination",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                360: {
+                    slidesPerView: "auto",
+                    spaceBetween: 8,
+                    allowTouchMove: true,
+                },
+                1000: {
+                    slidesPerView: 2,
+                },
+                1650: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+
+        var swiper2 = new Swiper(".mySwiper2", {
+            slidesPerView: 3,
+            allowTouchMove: false,
+            pagination: {
+                el: ".swiper-pagination-gallery",
+                type: "fraction",
+            },
+            navigation: {
+                nextEl: ".swiper-button-next-gallery",
+                prevEl: ".swiper-button-prev-gallery",
+            },
+            breakpoints: {
+                // when window width is >= 320px
+                360: {
+                    slidesPerView: "auto",
+                    spaceBetween: 8,
+                    allowTouchMove: true,
+                },
+                1000: {
+                    slidesPerView: 2,
+                },
+                1650: {
+                    slidesPerView: 3,
+                }
+            }
+        });
+        document.getElementById("open-modal-join").onclick = function () {
+            document.getElementsByClassName("modal-join")[0].style = "display: flex;";
+        }
+        function exitModal() {
+            document.getElementsByClassName("modal-join")[0].style = "display: none;";
+        }
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,367 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #FFFFFF;
+}
+
+.container {
+	max-width: 1600px;
+	margin: 0 auto;
+
+	padding-left: 15px;
+	padding-right: 15px;
+}
+header {
+	padding-top: 44px;
+}
+
+header .container {
+	display: flex;
+}
+
+.header__logo {
+	display: flex;
+}
+.header__logo img {
+    width: 115.35px;
+    height: 82.35px;
+}
+
+.header__logo p {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    color: #455669;
+    text-transform: uppercase;
+    padding-top: 21px;
+    margin-left: 6px;
+}
+nav {
+	margin-left: auto;
+}
+
+nav ul {
+	display: flex;
+	margin-top: 30px;
+    margin-right: 67px;
+}
+
+nav ul li {
+	list-style: none;
+	margin-right: 67px;
+}
+
+nav ul li:last-of-type {
+	margin-right: 50px;
+}
+
+nav ul li a {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #5C6976;
+
+    text-decoration: none;
+	text-transform: uppercase;
+}
+.header__btn-authorization {
+	background: none;
+	outline: none;
+	border: none;
+	width: 270px;
+	height: 70px;
+	background: linear-gradient(94.34deg, #F0B791 -41.02%, #804340 154.55%);
+	border-radius: 70px;
+	text-transform: uppercase;
+	font-family: "Gotham-Pro";
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 15px;
+	text-align: center;
+	letter-spacing: 0.05em;
+	color: #FFFFFF;
+	margin-top: 7px;
+}
+.content {
+    padding-top: 64px;
+}
+.content__bread-crumbs {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 10px;
+    text-transform: capitalize;
+
+    color: #5C6976;
+}
+.article {
+    padding-bottom: 140px;
+}
+.article__content {
+    display: flex;
+}
+.article__content-left p {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 35px;
+
+    color: #000000;
+
+    margin-right: 63px;
+}
+.article__title {
+    font-family: "Optima-Cyr";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 41px;
+
+    color: #455669;
+
+    margin-top: 58px;
+    margin-bottom: 61px;
+}
+.article__content-right img {
+    margin-bottom: 50px;
+}
+.article__content-right img:last-of-type {
+    margin-bottom: 0px;
+}
+.footer {
+    display: none;
+}
+.footer {
+    margin-bottom: 58px;
+}
+.footer__head {
+    display: flex;
+
+    margin-top: 136px;
+}
+.footer__logo {
+    display: flex;
+}
+.footer__logo h3 {
+    text-transform: uppercase;
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+
+    color: #455669;
+
+    margin-top: 21px;
+}
+.footer__nav {
+    margin-left: auto;
+}
+.footer__nav ul {
+    display: flex;
+    list-style: none;
+
+    margin-top: 31px;
+}
+.footer__nav ul li {
+    margin-left: 145px;
+}
+.footer__nav ul li:first-of-type {
+    margin-left: 0px;
+}
+.footer__nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #455669;
+}
+.footer__copyright {
+    display: flex;
+
+    margin-top: 49px;
+}
+.footer__copyright p {
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #5C6976;
+
+    margin-right: auto;
+}
+.footer__oferta,
+.footer__agree {
+    text-decoration: none;
+    font-family: "Gotham-Pro";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #5C6976;
+
+    border-bottom: 1px solid #5C6976;;
+}
+.footer__agree {
+    margin-left: auto;
+}
+.header__mobile-menu {
+	display: none;
+
+	margin-left: auto;
+}
+.header__mobile-menu button {
+	margin-top: 14px;
+
+	background: none;
+	outline: none;
+	border: none;
+}
+.header__mobile-menu button svg path {
+	fill:#455669;
+}
+.modal {
+    background: rgba(185, 195, 201, 0.2);
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.modal__body {
+	width: 466px;
+	height: 486px;
+
+	background: #FFFFFF;
+
+	position: relative;
+}
+.modal__body h3 {
+	font-family: "Optima-Cyr";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 30px;
+	line-height: 110.7%;
+	text-align: center;
+	color: #455669;
+
+	margin-top: 43px;
+}
+.modal__body form {
+	display: flex;
+	flex-direction: column;
+}
+.modal__body form input {
+	background: none;
+	outline: none;
+	border: none;
+
+	height: 70px;
+
+	background: #F3F8FB;
+	border: 1px solid #E0EAF0;
+	box-sizing: border-box;
+	border-radius: 8px;
+
+	font-family: "Gotham-Pro";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 14px;
+
+	color: #B9C3C9;
+
+	padding-left: 21px;
+	margin-left: 55px;
+	margin-right: 55px;
+	margin-bottom: 13px;
+}
+.modal__body form input:first-child {
+	margin-top: 34px;
+}
+.modal__body form input:last-of-type {
+	margin-bottom: 0px;
+}
+.join-btn {
+	background: none;
+	outline: none;
+	border: none;
+
+	width: 320px;
+	height: 70px;
+
+	margin-top: 30px;
+
+	background: linear-gradient(92.23deg, #14A3E0 0%, #4AC4F8 100.52%);
+	box-shadow: 0px 10px 20px rgba(20, 163, 224, 0.3);
+	border-radius: 8px;
+
+	font-family: "Gotham-Pro";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 15px;
+
+	color: #FFFFFF;
+
+	margin: 0 auto;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+.modal__body a {
+	font-family: "Gotham-Pro";
+	font-style: normal;
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 14px;
+
+	color: #455669;
+
+	text-decoration: none;
+	border-bottom: 1px solid #455669;
+	margin-left: 55px;
+}
+.modal__exit button {
+	background: none;
+	outline: none;
+	border: none;
+
+	position: absolute;
+	top: -28px;
+	right: -28px;
+}
+.modal-join {
+	display: none;
+}

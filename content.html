@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Складской комплекс</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/content.css">
+    <link rel="stylesheet" href="css/media/content-media.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header__logo">
+                <img src="img/dark logo.png">
+                <p>складской комплекс<br> на нижегородской</p>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="">объекты</a></li>
+                    <li><a href="">наши арендаторы</a></li>
+                    <li><a href="">вывоз снега</a></li>
+                    <li><a href="">фотогалерея</a></li>
+                    <li><a href="">контакты</a></li>
+                </ul>
+            </nav>
+            <div class="header__mobile-menu">
+                <button>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="18" height="8" viewBox="0 0 18 8" fill="none">
+                        <path d="M18 8H0V6H18V8ZM18 2H0V0H18V2Z" fill="#F0B791" />
+                    </svg>
+                </button>
+            </div>
+            <button id="open-modal-join" class="header__btn-authorization">кабинет арендатора</button>
+        </div>
+    </header>
+    <div class="content">
+        <div class="container">
+            <p class="content__bread-crumbs">Главная - Вывоз снега</p>
+            <div class="article">
+                <h2 class="article__title">Вывоз снега</h2>
+                <div class="article__content">
+                    <div class="article__content-left">
+                        <p>
+                            Однако, в жизни встречаются и ситуации, которые возмущают простого обывателя и тогда, действительно, хочется знать о том, почему в этом месте и в это время остается не очищенной от снега территория, почему не посыпаны пешеходные дорожки, где снег утоптался и превращается в лед, и когда, наконец, коммунальные службы начнут качественно выполнять свои прямы обязанности.
+Чтобы во всем справедливо разобраться, нужно владеть информацией об основных положениях, регулирующих уборку улиц в зимнюю пору года.
+Итак, попытаемся ответить на все интересующие вопросы простым и понятным изложением действующего законодательства в этой сфере.
+Временные сроки, в течение которого должна производиться зимняя уборка территорий российских городов, не являются постоянными. Начало этих сроков определяется месторасположением региона в той или иной климатической зоне и характерных климатических особенностей этой территории. Например, коммунальные службы Воркуты свою готовность должны проверить еще до начала августа, а вот астраханцы могут это делать в ноябре.
+Хотя, к началу такого периода должна быть проведена подготовительная работа по закупке необходимых материалов, ремонту снегоуборочной техники, включая и грузовые автомобили для вывоза снега, а также штаты водителей, дворников, разнорабочих должны быть доукомплектованы.
+Законодательная база и действующие правила не дают строгих указаний на перечень материалов, которыми нужно пользоваться для присыпки снега и устранения скользкости льда.  Поэтому, в каждом конкретном случае, коммунальщики сами решают: посыпать, который сам по себе безвреден, или же использовать агрессивные качества соли.
+Однако, в жизни встречаются и ситуации, которые возмущают простого обывателя и тогда, действительно, хочется знать о том, почему в этом месте и в это время остается не очищенной от снега территория, почему не посыпаны пешеходные дорожки, где снег утоптался и превращается в лед, и когда, наконец, коммунальные службы начнут качественно выполнять свои прямы обязанности.
+
+
+                        </p>
+                    </div>
+                    <div class="article__content-right">
+                        <img src="img/article photo 1.png">
+                        <img src="img/article photo 2.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="footer__head">
+                <div class="footer__logo">
+                    <img src="img/dark logo.png">
+                    <h3>складской комплекс<br> на нижегородской</h3>
+                </div>
+                <div class="footer__nav">
+                    <ul>
+                        <li><a href="">объекты</a></li>
+                        <li><a href="">наши арендаторы</a></li>
+                        <li><a href="">вывоз снега</a></li>
+                        <li><a href="">фотогалерея</a></li>
+                        <li><a href="">контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer__copyright">
+                <p>© 2022 Складской комплекс на Нижегородской</p>
+                <a href="" class="footer__oferta">Оферта и политика конфиденциальности</a>
+                <a href="" class="footer__agree">Пользовательское соглашение</a>
+            </div>
+        </div>
+    </div>
+    <div class="modal modal-join">
+        <div class="modal__body">
+            <h3>Вход в личный кабинет<br>Арендатора</h3>
+            <form>
+                <input placeholder="e-mail" type="text">
+                <input placeholder="Пароль" type="password">
+                <button class="join-btn">Войти</button>
+            </form>
+            <a href="">Восстановить пароль</a>
+            <div class="modal__exit">
+                <button onclick="exitModal()">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 20 20" fill="none">
+                        <path d="M1 1L19 19" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        <path d="M1 19L19 1" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                    </svg>
+                </button>
+
+            </div>
+        </div>
+    </div>
+    <script>
+        document.getElementById("open-modal-join").onclick = function () {
+            document.getElementsByClassName("modal-join")[0].style = "display: flex;";
+        }
+        function exitModal() {
+            document.getElementsByClassName("modal-join")[0].style = "display: none;";
+        }
+    </script>
+</body>
+
+</html>

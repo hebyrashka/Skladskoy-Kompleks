@@ -1,0 +1,8 @@
+@font-face {
+	font-family: "Optima-Cyr";
+	src: url('../fonts/Optima-Cyr.woff') format("woff");
+}
+@font-face {
+    font-family: "Gotham-Pro";
+    src: url("../fonts/Gotham Pro.ttf") format("truetype");
+}
